@@ -1,0 +1,80 @@
+.popUpContainer {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 0rem;
+  top: 0rem;
+  width: 100%;
+  height: 100vh;
+}
+.box {
+  position: relative;
+  width: 50%;
+  min-height: 300px;
+  background-color: rgb(152, 152, 29);
+  border-radius: 5px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+.close {
+  position: absolute;
+  top: -15%;
+  right: -10%;
+  margin: 2rem;
+  cursor: pointer;
+  background: #000;
+  color: aliceblue;
+}
+.close:hover {
+  transform: scale(1.2) rotate(45deg);
+}
+.inputContainer h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskInput {
+  width: 100%;
+  height: 1.7rem;
+  border-radius: 5px;
+  padding: auto;
+  background: white;
+}
+.selectStatus {
+  width: 100%;
+  height: 1.7rem;
+  border-radius: 5px;
+  padding: auto;
+  background: white;
+}
+
+.buttons {
+  margin: 1rem;
+  display: flex;
+  height: 1.7rem;
+  justify-content: space-evenly;
+}
+
+.addTaskButton2 {
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(71, 71, 137);
+  color: aliceblue;
+  font-size: 500;
+  cursor: pointer;
+}
+.addTaskButton2:hover {
+  transform: scale(1.2);
+  background: aliceblue;
+  color: rgb(71, 71, 137);
+}
+.cancel {
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 500;
+  cursor: pointer;
+}

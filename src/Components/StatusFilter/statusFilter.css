@@ -1,0 +1,8 @@
+.mainOption {
+  width: 6rem;
+  height: 1.8rem;
+  border: none;
+  border-radius: 3px;
+  background: gray;
+  color: antiquewhite;
+}

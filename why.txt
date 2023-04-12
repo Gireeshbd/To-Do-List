@@ -1,0 +1,14 @@
+This particular project is to build simple React 
+project, TO-DO-LIST app 
+
+Break - Down the problems
+
+Add task
+
+1. How do I pop-up and ask for title,
+2. How Do I store the status
+3. How Do i filter it and add it to the 
+bottom
+4. How do i add the date and time to a task
+5. how to add check box
+6. how do i click the checkbox and turn it into 
